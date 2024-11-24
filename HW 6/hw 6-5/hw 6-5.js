@@ -1,3 +1,3 @@
-let stringToarray = (str) => console.log(str.split(' '));
+let stringToArray = (str) => console.log(str.split(' '));
 
-stringToarray('Ревуть воли як ясла повні');
+stringToArray('Ревуть воли як ясла повні');
