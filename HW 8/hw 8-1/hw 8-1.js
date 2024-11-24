@@ -15,7 +15,7 @@ function copy(course) {
     }
     throw new Error('Error 222');
 }
-let value1 = copy({title: 'JavaScript Complex', monthDuration: 5, geeting(){console.log('Hello people')}, foo(a){console.log(a)}});
+let value1 = copy({title: 'JavaScript Complex', monthDuration: {num: 5.10}, geeting(){console.log('Hello people')}, foo(a){console.log(a)}});
 console.log(value1)
 value1.geeting();
 value1.foo(325);
